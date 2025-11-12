@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gasoek+One&family=Handlee&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.about {
+  padding: 80px 0 310px;
+  background-image: url(/assets/makaron.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.about__avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding: 20px;
+  background: linear-gradient(270deg, #bff0ff 11.87%, #82b4ff 100%);
+  margin-bottom: 42px;
+  object-fit: cover;
+}
+
+.about__wrapper{
+    text-align: center;
+}
+
+.about__name{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 96px;
+    line-height: 128px;
+    letter-spacing: 0%;
+  background: -webkit-linear-gradient(#DBA6F4, #A981FE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+}
+
+
